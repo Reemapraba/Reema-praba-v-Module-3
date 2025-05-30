@@ -125,3 +125,33 @@ def sortlist():
 ![image](https://github.com/user-attachments/assets/60fa3c68-0f59-4bc5-bfc1-3629fefff45b)
 
 ### Result: Thus, the given program is implemented and executed successfully .
+
+# Ex No: 3.5 SEB Splitstring
+## Aim:
+To write a Python function that accepts an email ID and splits the string using the "@" symbol.
+
+## Algorithm:
+1. Start.
+2. Define a function `splitstring(string)`
+   - Use the `split("@")` function to split the input string.
+   - Print the resulting list.
+3. Call the function with an email ID as input.
+4. End.
+
+## Program:
+```
+def splitstring(string):
+    b = string.split("@")
+    print(b)
+
+# Example usage
+email = input("Enter your email ID: ")
+splitstring(email)
+```
+### Output:
+![image](https://github.com/user-attachments/assets/0a009600-7960-4416-b407-56b63c3c5589)
+
+### Result: Thus the program was executed successfully.
+
+
+
